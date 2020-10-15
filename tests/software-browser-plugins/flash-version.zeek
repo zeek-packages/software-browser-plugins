@@ -1,8 +1,5 @@
-# @TEST-EXEC: zeek -b -r ${TRACES}/http/flash-version.trace %INPUT 
+# @TEST-EXEC: $ZEEK -b -r ${TRACES}/http/flash-version.trace protocols/http/software %DIR/../../scripts %INPUT
 # @TEST-EXEC: btest-diff software.log
-
-@load protocols/http/software
-@load protocols/http/software-browser-plugins
 
 redef Software::asset_tracking = ALL_HOSTS;
 
