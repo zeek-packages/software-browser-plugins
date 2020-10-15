@@ -10,7 +10,7 @@ Zeek Package for Software Browser Plugins
    :alt: Documentation Status
 
 .. image:: https://coveralls.io/repos/github/zeek-packages/software-browser-plugins/badge.svg?branch=master
-   :target: https://coveralls.io/repos/github/zeek-packages/software-browser-plugins?branch=master
+   :target: https://coveralls.io/github/zeek-packages/software-browser-plugins?branch=master
    :alt: Coverage Status
 
 .. image:: https://img.shields.io/github/workflow/status/zeek-packages/software-browser-plugins/Cruft?label=Latest%20Template

@@ -1,6 +1,6 @@
 {
     "template": "https://github.com/esnet/cookiecutter-zeekpackage.git",
-    "commit": "63511124c400177c4d52e7e74a181af1632f6ea8",
+    "commit": "8ba9761a8c6c7eccedb7902919810b3b9aa1c6e3",
     "context": {
         "cookiecutter": {
             "project_name": "Software Browser Plugins",
