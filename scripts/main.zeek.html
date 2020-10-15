@@ -99,7 +99,10 @@
 </ul>
 <ul class="current">
 <li class="toctree-l1 current"><a class="current reference internal" href="#">main.zeek</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#summary">Summary</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#summary">Summary</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#redefinitions">Redefinitions</a></li>
+</ul>
+</li>
 <li class="toctree-l2"><a class="reference internal" href="#detailed-interface">Detailed Interface</a></li>
 </ul>
 </li>
@@ -188,14 +191,35 @@
 <code class="sig-name descname">HTTP</code><a class="headerlink" href="#namespace-HTTP" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
-<p>Detect browser plugins as they leak through requests to Omniture advertising servers</p>
+<p>Detect browser plugins as they leak through requests to Omniture
+advertising servers.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Namespace</dt>
 <dd class="field-odd"><p>HTTP</p>
 </dd>
+<dt class="field-even">Imports</dt>
+<dd class="field-even"><p><a class="reference external" href="https://docs.zeek.org/en/current/scripts/base/frameworks/software/index.html" title="(in Zeek vv3.2.2)"><span class="xref std std-doc">base/frameworks/software</span></a>, <a class="reference external" href="https://docs.zeek.org/en/current/scripts/base/protocols/http/index.html" title="(in Zeek vv3.2.2)"><span class="xref std std-doc">base/protocols/http</span></a></p>
+</dd>
 </dl>
 <div class="section" id="summary">
 <h2>Summary<a class="headerlink" href="#summary" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="redefinitions">
+<h3>Redefinitions<a class="headerlink" href="#redefinitions" title="Permalink to this headline">¶</a></h3>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 98%" />
+<col style="width: 2%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p><a class="reference external" href="https://docs.zeek.org/en/current/scripts/base/protocols/http/main.zeek.html#type-HTTP::Info" title="(in Zeek vv3.2.2)"><code class="xref zeek zeek-type docutils literal notranslate"><span class="pre">HTTP::Info</span></code></a>: <a class="reference external" href="https://docs.zeek.org/en/current/script-reference/types.html#type-record" title="(in Zeek vv3.2.2)"><code class="xref zeek zeek-type docutils literal notranslate"><span class="pre">record</span></code></a></p></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="https://docs.zeek.org/en/current/scripts/base/frameworks/software/main.zeek.html#type-Software::Type" title="(in Zeek vv3.2.2)"><code class="xref zeek zeek-type docutils literal notranslate"><span class="pre">Software::Type</span></code></a>: <a class="reference external" href="https://docs.zeek.org/en/current/script-reference/types.html#type-enum" title="(in Zeek vv3.2.2)"><code class="xref zeek zeek-type docutils literal notranslate"><span class="pre">enum</span></code></a></p></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
 </div>
 <div class="section" id="detailed-interface">
 <h2>Detailed Interface<a class="headerlink" href="#detailed-interface" title="Permalink to this headline">¶</a></h2>

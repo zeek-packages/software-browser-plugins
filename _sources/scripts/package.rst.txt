@@ -134,7 +134,8 @@ This project is licensed under the BSD license. See the `LICENSE <./LICENSE>`_ f
 
 :doc:`/scripts/main.zeek`
 
-   Detect browser plugins as they leak through requests to Omniture advertising servers
+   Detect browser plugins as they leak through requests to Omniture
+   advertising servers.
 
 :doc:`/scripts/local/__load__.zeek`
 
