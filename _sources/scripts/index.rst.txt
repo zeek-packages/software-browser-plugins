@@ -1,0 +1,6 @@
+.. toctree::
+   :maxdepth: 1
+
+   main.zeek </scripts/main.zeek>
+   __load__.zeek </scripts/__load__.zeek>
+   local/__load__.zeek </scripts/local/__load__.zeek>

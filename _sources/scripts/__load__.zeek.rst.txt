@@ -1,0 +1,15 @@
+:tocdepth: 3
+
+__load__.zeek
+=============
+
+This is the entrypoint to loading the entire package.
+
+:Imports: :doc:`local </scripts/local/index>`, :doc:`main.zeek </scripts/main.zeek>`
+
+Summary
+~~~~~~~
+
+Detailed Interface
+~~~~~~~~~~~~~~~~~~
+

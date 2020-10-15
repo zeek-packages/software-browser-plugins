@@ -1,0 +1,257 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Contributing &mdash; zkg: Windows Version Detection source documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+
+  
+  
+  
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home" alt="Documentation Home"> zkg: Windows Version Detection
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                source
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul>
+<li class="toctree-l1"><a class="reference internal" href="README.html">Zeek Package for Software Browser Plugins</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="README.html#quick-start">Quick Start</a></li>
+<li class="toctree-l2"><a class="reference internal" href="README.html#updating-and-unloading">Updating and Unloading</a></li>
+<li class="toctree-l2"><a class="reference internal" href="README.html#installation">Installation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="README.html#contributing">Contributing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="README.html#package-template">Package Template</a></li>
+<li class="toctree-l2"><a class="reference internal" href="README.html#license">License</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="scripts/main.zeek.html">main.zeek</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="scripts/main.zeek.html#summary">Summary</a></li>
+<li class="toctree-l2"><a class="reference internal" href="scripts/main.zeek.html#detailed-interface">Detailed Interface</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="scripts/__load__.zeek.html">__load__.zeek</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="scripts/__load__.zeek.html#summary">Summary</a></li>
+<li class="toctree-l2"><a class="reference internal" href="scripts/__load__.zeek.html#detailed-interface">Detailed Interface</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="scripts/local/__load__.zeek.html">local/__load__.zeek</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="scripts/local/__load__.zeek.html#summary">Summary</a></li>
+<li class="toctree-l2"><a class="reference internal" href="scripts/local/__load__.zeek.html#detailed-interface">Detailed Interface</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="genindex.html">Index</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">zkg: Windows Version Detection</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>Contributing</li>
+    
+    
+<li class="wy-breadcrumbs-aside">
+
+  
+    <a href="_sources/contributing.rst.txt" rel="nofollow"> View page source</a>
+  
+
+</li>
+
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="contributing">
+<h1>Contributing<a class="headerlink" href="#contributing" title="Permalink to this headline">¶</a></h1>
+<p>Regardless of your experience level with Zeek, there are ways that you could help. If you submit a pull request with a proposed change, an extensive set of <a class="reference external" href="https://github.com/zeek-packages/software-browser-plugins/actions">continuous integration tests</a> will run via <a class="reference external" href="https://docs.github.com/en/free-pro-team&#64;latest/actions">GitHub Actions</a>. These help ensure the quality of the package.</p>
+<div class="section" id="reporting-bugs-or-improvement-ideas">
+<h2>Reporting bugs or improvement ideas<a class="headerlink" href="#reporting-bugs-or-improvement-ideas" title="Permalink to this headline">¶</a></h2>
+<p>Issues are tracked on <a class="reference external" href="https://github.com/zeek-packages/software-browser-plugins/issues">GitHub</a>. There’s an issue template that helps capture the necessary information.</p>
+</div>
+<div class="section" id="improving-the-documentation">
+<h2>Improving the documentation<a class="headerlink" href="#improving-the-documentation" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="https://zeek-packages.github.io/software-browser-plugins/">The documentation</a> is hosted on <a class="reference external" href="https://docs.github.com/en/free-pro-team&#64;latest/github/working-with-github-pages">GitHub Pages</a></p>
+<p>Documentation is auto-generated by <a class="reference external" href="https://github.com/zeek/zeek/blob/master/scripts/zeekygen/example.zeek">Zeekygen</a> comments in the <a class="reference external" href="https://github.com/zeek-packages/software-browser-plugins/tree/master/scripts">scripts</a> and <a class="reference external" href="https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html">reStructuredText</a> files in <a class="reference external" href="https://github.com/zeek-packages/software-browser-plugins/tree/master/docs">docs/</a>.</p>
+</div>
+<div class="section" id="contributing-packet-captures">
+<h2>Contributing packet captures<a class="headerlink" href="#contributing-packet-captures" title="Permalink to this headline">¶</a></h2>
+<p>Often, finding realistic traffic to test on is very difficult. There
+might be privacy concerns to sharing, or some data is just hard to
+come by in the wild. Having a development environment (which can be as
+simple as a VM or Docker container) where traffic can be generated
+will often address both these potential issues.</p>
+<p>Please note that the more realistic the traffic is, the better the end
+result. Generating “cooked” traffic with Scapy or a hex editor can
+trigger a detection, but might not reliably replicate real-world
+conditions.</p>
+</div>
+<div class="section" id="increasing-test-coverage">
+<h2>Increasing test coverage<a class="headerlink" href="#increasing-test-coverage" title="Permalink to this headline">¶</a></h2>
+<p>This package comes with a <a class="reference external" href="https://github.com/zeek-packages/software-browser-plugins/tree/master/tests/software-browser-plugins">test suite</a>, using <a class="reference external" href="https://github.com/zeek/btest">btest</a>. Each Zeek script is analyzed for code coverage by the tests, and stats are reported via <a class="reference external" href="https://coveralls.io/repos/github/zeek-packages/software-browser-plugins?branch=master">coveralls</a>.</p>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        
+        &copy; Copyright 2020, The Regents of the University of California through the Lawrence Berkeley National Laboratory and the International Computer Science Institute
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
