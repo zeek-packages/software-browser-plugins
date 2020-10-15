@@ -1,0 +1,23 @@
+{
+    "template": "https://github.com/esnet/cookiecutter-zeekpackage.git",
+    "commit": "14ee01acb7d74444a3444975fea1b4b4a8e5fe95",
+    "context": {
+        "cookiecutter": {
+            "project_name": "Software Browser Plugins",
+            "project_slug": "software-browser-plugins",
+            "project_short_description": "Detect browser plugins as they leak through requests to Omniture advertising servers",
+            "project_credits": "Seth Hall <seth@corelight.com>",
+            "project_namespace": "HTTP",
+            "metadata_tags": "http, flash, browser, software, fingerprinting",
+            "github_username": "zeek-packages",
+            "copyright_owner": "The Regents of the University of California through the Lawrence Berkeley National Laboratory and the International Computer Science Institute",
+            "open_source_license": "BSD license",
+            "_copy_without_render": [
+                "docs/_templates/*.html",
+                ".github/workflows/*.yml"
+            ],
+            "_template": "https://github.com/esnet/cookiecutter-zeekpackage.git"
+        }
+    },
+    "directory": null
+}

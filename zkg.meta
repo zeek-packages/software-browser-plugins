@@ -1,0 +1,8 @@
+[package]
+description = Detect browser plugins as they leak through requests to Omniture advertising servers
+credits = Seth Hall <seth@corelight.com>
+tags = http, flash, browser, software, fingerprinting
+
+test_command = cd tests && make
+
+script_dir = ./scripts
